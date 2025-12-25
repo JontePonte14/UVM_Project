@@ -1,0 +1,21 @@
+PYTHON ?= python3
+
+PYTHON_INCLUDE = $(shell $(PYTHON) -c "import sysconfig; print(sysconfig.get_paths()['include'])")
+PYTHON_LIB     = $(shell $(PYTHON) -c "import sysconfig; print(sysconfig.get_config_var('LIBDIR'))")
+PYTHON_LDLIB   = $(shell $(PYTHON) -c "import sysconfig; print(sysconfig.get_config_var('LDLIBRARY'))")
+
+CXX = g++
+CXXFLAGS = -fPIC -shared -O2 -I$(PYTHON_INCLUDE)
+LDFLAGS  = -L$(PYTHON_LIB) -l:$(PYTHON_LDLIB)
+
+TARGET = execute_stage_ref.so
+SRC = execute_stage_ref.cpp
+
+all: $(TARGET)
+
+$(TARGET): $(SRC)
+	$(CXX) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
+
+clean:
+	rm -f $(TARGET)
+

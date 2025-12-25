@@ -1,0 +1,293 @@
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 340000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=4294967295, data2=2147483648, immediate_data=2147483648, alu_op_int=1, alu_src_int=1, encoding_int=4, compflg_in=1, program_counter=1131868858
+# 	ERROR::DUT_OUTPUT_DATA alu_data=2147483647, memory_data=2147483648, overflow_flag=1, compflg_out=1
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=2147483647, exp_memory_data=-2147483648, exp_overflow_flag=0, exp_compflg_out=1
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 760000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=2377619365, data2=1161985055, immediate_data=2147483648, alu_op_int=1, alu_src_int=1, encoding_int=0, compflg_in=0, program_counter=3767396153
+# 	ERROR::DUT_OUTPUT_DATA alu_data=230135717, memory_data=1161985055, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=230135717, exp_memory_data=1161985055, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 950000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=3452746722, data2=998597434, immediate_data=2537546358, alu_op_int=1, alu_src_int=1, encoding_int=1, compflg_in=0, program_counter=4089976494
+# 	ERROR::DUT_OUTPUT_DATA alu_data=915200364, memory_data=998597434, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=915200364, exp_memory_data=998597434, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 2990000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=0 REF=1
+# 	ERROR::INPUT_DATA data1=2147483648, data2=1260039772, immediate_data=4131841610, alu_op_int=1, alu_src_int=2, encoding_int=2, compflg_in=1, program_counter=1435330279
+# 	ERROR::DUT_OUTPUT_DATA alu_data=887443876, memory_data=1260039772, overflow_flag=0, compflg_out=1
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=887443876, exp_memory_data=1260039772, exp_overflow_flag=1, exp_compflg_out=1
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 4020000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=0 REF=1
+# 	ERROR::INPUT_DATA data1=2147483648, data2=197284781, immediate_data=4294967295, alu_op_int=1, alu_src_int=0, encoding_int=5, compflg_in=0, program_counter=282317216
+# 	ERROR::DUT_OUTPUT_DATA alu_data=1950198867, memory_data=197284781, overflow_flag=0, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=1950198867, exp_memory_data=197284781, exp_overflow_flag=1, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 6220000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=3482354974, data2=2147483648, immediate_data=2788972538, alu_op_int=1, alu_src_int=1, encoding_int=1, compflg_in=1, program_counter=12205200
+# 	ERROR::DUT_OUTPUT_DATA alu_data=693382436, memory_data=2147483648, overflow_flag=1, compflg_out=1
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=693382436, exp_memory_data=-2147483648, exp_overflow_flag=0, exp_compflg_out=1
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 6630000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=0 REF=1
+# 	ERROR::INPUT_DATA data1=2147483648, data2=1330970560, immediate_data=2007138197, alu_op_int=1, alu_src_int=1, encoding_int=1, compflg_in=1, program_counter=3330717007
+# 	ERROR::DUT_OUTPUT_DATA alu_data=140345451, memory_data=1330970560, overflow_flag=0, compflg_out=1
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=140345451, exp_memory_data=1330970560, exp_overflow_flag=1, exp_compflg_out=1
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 6940000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=3264939556, data2=2147483648, immediate_data=2185034182, alu_op_int=1, alu_src_int=2, encoding_int=3, compflg_in=0, program_counter=3754713307
+# 	ERROR::DUT_OUTPUT_DATA alu_data=1117455908, memory_data=2147483648, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=1117455908, exp_memory_data=-2147483648, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 8100000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=0 REF=1
+# 	ERROR::INPUT_DATA data1=2147483648, data2=3387108540, immediate_data=1051546593, alu_op_int=1, alu_src_int=1, encoding_int=2, compflg_in=1, program_counter=3972713664
+# 	ERROR::DUT_OUTPUT_DATA alu_data=1095937055, memory_data=3387108540, overflow_flag=0, compflg_out=1
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=1095937055, exp_memory_data=-907858756, exp_overflow_flag=1, exp_compflg_out=1
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 8530000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=2539686673, data2=2147483648, immediate_data=4294967295, alu_op_int=1, alu_src_int=2, encoding_int=2, compflg_in=0, program_counter=2309401395
+# 	ERROR::DUT_OUTPUT_DATA alu_data=392203025, memory_data=2147483648, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=392203025, exp_memory_data=-2147483648, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 8810000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=0 REF=1
+# 	ERROR::INPUT_DATA data1=2801283161, data2=1267946644, immediate_data=231285812, alu_op_int=1, alu_src_int=0, encoding_int=3, compflg_in=0, program_counter=2132717788
+# 	ERROR::DUT_OUTPUT_DATA alu_data=1533336517, memory_data=1267946644, overflow_flag=0, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=1533336517, exp_memory_data=1267946644, exp_overflow_flag=1, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 9010000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=2147483648, data2=4294967295, immediate_data=2147483648, alu_op_int=1, alu_src_int=1, encoding_int=3, compflg_in=0, program_counter=3465431085
+# 	ERROR::DUT_OUTPUT_DATA alu_data=0, memory_data=4294967295, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=0, exp_memory_data=-1, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 9190000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=2147483648, data2=2147483648, immediate_data=4294967295, alu_op_int=1, alu_src_int=0, encoding_int=3, compflg_in=0, program_counter=581903879
+# 	ERROR::DUT_OUTPUT_DATA alu_data=0, memory_data=2147483648, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=0, exp_memory_data=-2147483648, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 11410000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=4294967295, data2=2147483648, immediate_data=3287126508, alu_op_int=1, alu_src_int=0, encoding_int=5, compflg_in=0, program_counter=3878981509
+# 	ERROR::DUT_OUTPUT_DATA alu_data=2147483647, memory_data=2147483648, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=2147483647, exp_memory_data=-2147483648, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 11520000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=2147483648, data2=2369556103, immediate_data=4294967295, alu_op_int=1, alu_src_int=2, encoding_int=4, compflg_in=1, program_counter=3090462111
+# 	ERROR::DUT_OUTPUT_DATA alu_data=1925407097, memory_data=2369556103, overflow_flag=1, compflg_out=1
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=1925407097, exp_memory_data=-1925411193, exp_overflow_flag=0, exp_compflg_out=1
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 11790000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=4294967295, data2=2147483648, immediate_data=388529735, alu_op_int=1, alu_src_int=2, encoding_int=4, compflg_in=0, program_counter=1207977625
+# 	ERROR::DUT_OUTPUT_DATA alu_data=132411392, memory_data=2147483648, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=132411392, exp_memory_data=-2147483648, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 12150000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=4294967295, data2=4294967295, immediate_data=545130201, alu_op_int=1, alu_src_int=0, encoding_int=5, compflg_in=1, program_counter=3089528360
+# 	ERROR::DUT_OUTPUT_DATA alu_data=0, memory_data=4294967295, overflow_flag=1, compflg_out=1
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=0, exp_memory_data=-1, exp_overflow_flag=0, exp_compflg_out=1
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 12470000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=0 REF=1
+# 	ERROR::INPUT_DATA data1=3807633490, data2=0, immediate_data=1749881461, alu_op_int=1, alu_src_int=1, encoding_int=2, compflg_in=1, program_counter=2303730650
+# 	ERROR::DUT_OUTPUT_DATA alu_data=2057752029, memory_data=0, overflow_flag=0, compflg_out=1
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=2057752029, exp_memory_data=0, exp_overflow_flag=1, exp_compflg_out=1
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 15430000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=4294967295, data2=2147483648, immediate_data=4294967295, alu_op_int=1, alu_src_int=2, encoding_int=0, compflg_in=0, program_counter=538608459
+# 	ERROR::DUT_OUTPUT_DATA alu_data=2147483647, memory_data=2147483648, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=2147483647, exp_memory_data=-2147483648, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 17560000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=3821462537, data2=2987519275, immediate_data=2147483648, alu_op_int=1, alu_src_int=0, encoding_int=3, compflg_in=1, program_counter=2861295770
+# 	ERROR::DUT_OUTPUT_DATA alu_data=833943262, memory_data=2987519275, overflow_flag=1, compflg_out=1
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=833943262, exp_memory_data=-1307448021, exp_overflow_flag=0, exp_compflg_out=1
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 19460000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=0 REF=1
+# 	ERROR::INPUT_DATA data1=3153574626, data2=261511223, immediate_data=1365122425, alu_op_int=1, alu_src_int=1, encoding_int=1, compflg_in=1, program_counter=2657269777
+# 	ERROR::DUT_OUTPUT_DATA alu_data=1788452201, memory_data=261511223, overflow_flag=0, compflg_out=1
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=1788452201, exp_memory_data=261511223, exp_overflow_flag=1, exp_compflg_out=1
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 20230000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=4294967295, data2=2147483648, immediate_data=3982211660, alu_op_int=1, alu_src_int=1, encoding_int=0, compflg_in=0, program_counter=2603094266
+# 	ERROR::DUT_OUTPUT_DATA alu_data=312755635, memory_data=2147483648, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=312755635, exp_memory_data=-2147483648, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 20470000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=4294967295, data2=4294967295, immediate_data=2147483648, alu_op_int=1, alu_src_int=0, encoding_int=3, compflg_in=1, program_counter=2639098908
+# 	ERROR::DUT_OUTPUT_DATA alu_data=0, memory_data=4294967295, overflow_flag=1, compflg_out=1
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=0, exp_memory_data=-1, exp_overflow_flag=0, exp_compflg_out=1
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 20520000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=4294967295, data2=2147483648, immediate_data=710041166, alu_op_int=1, alu_src_int=0, encoding_int=3, compflg_in=0, program_counter=1928340680
+# 	ERROR::DUT_OUTPUT_DATA alu_data=2147483647, memory_data=2147483648, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=2147483647, exp_memory_data=-2147483648, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 20570000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=4057403980, data2=2147483648, immediate_data=2147483648, alu_op_int=1, alu_src_int=1, encoding_int=4, compflg_in=0, program_counter=795432717
+# 	ERROR::DUT_OUTPUT_DATA alu_data=1909920332, memory_data=2147483648, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=1909920332, exp_memory_data=-2147483648, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 20730000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=0 REF=1
+# 	ERROR::INPUT_DATA data1=2147483648, data2=1292147372, immediate_data=929957197, alu_op_int=1, alu_src_int=2, encoding_int=2, compflg_in=1, program_counter=4130815156
+# 	ERROR::DUT_OUTPUT_DATA alu_data=855336276, memory_data=1292147372, overflow_flag=0, compflg_out=1
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=855336276, exp_memory_data=1292147372, exp_overflow_flag=1, exp_compflg_out=1
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 20880000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=0 REF=1
+# 	ERROR::INPUT_DATA data1=2147483648, data2=1056772806, immediate_data=0, alu_op_int=1, alu_src_int=2, encoding_int=0, compflg_in=1, program_counter=1379049636
+# 	ERROR::DUT_OUTPUT_DATA alu_data=1090710842, memory_data=1056772806, overflow_flag=0, compflg_out=1
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=1090710842, exp_memory_data=1056772806, exp_overflow_flag=1, exp_compflg_out=1
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 20930000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=4294967295, data2=0, immediate_data=2938085656, alu_op_int=1, alu_src_int=1, encoding_int=2, compflg_in=0, program_counter=664669799
+# 	ERROR::DUT_OUTPUT_DATA alu_data=1356881639, memory_data=0, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=1356881639, exp_memory_data=0, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 21080000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=4288550578, data2=2236996059, immediate_data=2454865498, alu_op_int=1, alu_src_int=1, encoding_int=0, compflg_in=0, program_counter=1379130810
+# 	ERROR::DUT_OUTPUT_DATA alu_data=1833685080, memory_data=2236996059, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=1833685080, exp_memory_data=-2057971237, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 22460000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=3380377775, data2=3217858381, immediate_data=2082515943, alu_op_int=1, alu_src_int=0, encoding_int=2, compflg_in=1, program_counter=3365463863
+# 	ERROR::DUT_OUTPUT_DATA alu_data=162519394, memory_data=3217858381, overflow_flag=1, compflg_out=1
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=162519394, exp_memory_data=-1077108915, exp_overflow_flag=0, exp_compflg_out=1
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 22920000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=4076887505, data2=3051784276, immediate_data=2986306228, alu_op_int=1, alu_src_int=0, encoding_int=2, compflg_in=1, program_counter=2432596871
+# 	ERROR::DUT_OUTPUT_DATA alu_data=1025103229, memory_data=3051784276, overflow_flag=1, compflg_out=1
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=1025103229, exp_memory_data=-1243183020, exp_overflow_flag=0, exp_compflg_out=1
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 23470000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=4123563860, data2=4168567475, immediate_data=4117162403, alu_op_int=1, alu_src_int=1, encoding_int=0, compflg_in=1, program_counter=3382282957
+# 	ERROR::DUT_OUTPUT_DATA alu_data=6401457, memory_data=4168567475, overflow_flag=1, compflg_out=1
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=6401457, exp_memory_data=-126399821, exp_overflow_flag=0, exp_compflg_out=1
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 24500000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=4294967295, data2=3277619079, immediate_data=1472558201, alu_op_int=1, alu_src_int=2, encoding_int=2, compflg_in=1, program_counter=2244645412
+# 	ERROR::DUT_OUTPUT_DATA alu_data=1017348216, memory_data=3277619079, overflow_flag=1, compflg_out=1
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=1017348216, exp_memory_data=-1017348217, exp_overflow_flag=0, exp_compflg_out=1
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 24790000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=3977439205, data2=3904728291, immediate_data=3573593892, alu_op_int=1, alu_src_int=0, encoding_int=2, compflg_in=0, program_counter=1534697805
+# 	ERROR::DUT_OUTPUT_DATA alu_data=72710914, memory_data=3904728291, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=72710914, exp_memory_data=-390239005, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 26760000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=0 REF=1
+# 	ERROR::INPUT_DATA data1=3658174563, data2=1899915425, immediate_data=1863504147, alu_op_int=1, alu_src_int=1, encoding_int=0, compflg_in=1, program_counter=798295026
+# 	ERROR::DUT_OUTPUT_DATA alu_data=1794670416, memory_data=1899915425, overflow_flag=0, compflg_out=1
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=1794670416, exp_memory_data=1899915425, exp_overflow_flag=1, exp_compflg_out=1
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 26820000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=0 REF=1
+# 	ERROR::INPUT_DATA data1=3198057797, data2=1091522340, immediate_data=583899079, alu_op_int=1, alu_src_int=0, encoding_int=4, compflg_in=1, program_counter=3782568964
+# 	ERROR::DUT_OUTPUT_DATA alu_data=2106535457, memory_data=1091522340, overflow_flag=0, compflg_out=1
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=2106535457, exp_memory_data=1091522340, exp_overflow_flag=1, exp_compflg_out=1
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 27190000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=0 REF=1
+# 	ERROR::INPUT_DATA data1=2159894951, data2=1513396547, immediate_data=213636665, alu_op_int=1, alu_src_int=0, encoding_int=1, compflg_in=0, program_counter=1835634228
+# 	ERROR::DUT_OUTPUT_DATA alu_data=646498404, memory_data=1513396547, overflow_flag=0, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=646498404, exp_memory_data=1513396547, exp_overflow_flag=1, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 27660000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=2792133178, data2=2147483648, immediate_data=973802536, alu_op_int=1, alu_src_int=0, encoding_int=5, compflg_in=0, program_counter=2783759374
+# 	ERROR::DUT_OUTPUT_DATA alu_data=644649530, memory_data=2147483648, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=644649530, exp_memory_data=-2147483648, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 28480000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=4294967295, data2=2891150913, immediate_data=4294967295, alu_op_int=1, alu_src_int=0, encoding_int=4, compflg_in=0, program_counter=4254157736
+# 	ERROR::DUT_OUTPUT_DATA alu_data=1403816382, memory_data=2891150913, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=1403816382, exp_memory_data=-1403816383, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 28810000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=0 REF=1
+# 	ERROR::INPUT_DATA data1=2147483648, data2=719075268, immediate_data=2107201918, alu_op_int=1, alu_src_int=0, encoding_int=4, compflg_in=0, program_counter=1408928064
+# 	ERROR::DUT_OUTPUT_DATA alu_data=1428408380, memory_data=719075268, overflow_flag=0, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=1428408380, exp_memory_data=719075268, exp_overflow_flag=1, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 29180000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=4294967295, data2=591888155, immediate_data=2614393831, alu_op_int=1, alu_src_int=1, encoding_int=2, compflg_in=0, program_counter=1391165918
+# 	ERROR::DUT_OUTPUT_DATA alu_data=1680573464, memory_data=591888155, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=1680573464, exp_memory_data=591888155, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 29340000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=4294967295, data2=2147483648, immediate_data=2607899006, alu_op_int=1, alu_src_int=1, encoding_int=3, compflg_in=0, program_counter=1374039334
+# 	ERROR::DUT_OUTPUT_DATA alu_data=1687068289, memory_data=2147483648, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=1687068289, exp_memory_data=-2147483648, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 29440000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=2947426760, data2=4294967295, immediate_data=2147483648, alu_op_int=1, alu_src_int=1, encoding_int=4, compflg_in=0, program_counter=1618438704
+# 	ERROR::DUT_OUTPUT_DATA alu_data=799943112, memory_data=4294967295, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=799943112, exp_memory_data=-1, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 30490000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=4294967295, data2=2584880247, immediate_data=4294967295, alu_op_int=1, alu_src_int=2, encoding_int=4, compflg_in=0, program_counter=3383825640
+# 	ERROR::DUT_OUTPUT_DATA alu_data=1710082953, memory_data=2584880247, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=1710082953, exp_memory_data=-1710087049, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 31590000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=3267522377, data2=0, immediate_data=2988385867, alu_op_int=1, alu_src_int=1, encoding_int=4, compflg_in=0, program_counter=4002368345
+# 	ERROR::DUT_OUTPUT_DATA alu_data=279136510, memory_data=0, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=279136510, exp_memory_data=0, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 32450000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=0 REF=1
+# 	ERROR::INPUT_DATA data1=4158157372, data2=2112630068, immediate_data=2363137742, alu_op_int=1, alu_src_int=0, encoding_int=3, compflg_in=1, program_counter=3389129778
+# 	ERROR::DUT_OUTPUT_DATA alu_data=2045527304, memory_data=2112630068, overflow_flag=0, compflg_out=1
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=2045527304, exp_memory_data=2112630068, exp_overflow_flag=1, exp_compflg_out=1
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 32720000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=4225323232, data2=3546843100, immediate_data=4294967295, alu_op_int=1, alu_src_int=0, encoding_int=1, compflg_in=1, program_counter=2135574663
+# 	ERROR::DUT_OUTPUT_DATA alu_data=678480132, memory_data=3546843100, overflow_flag=1, compflg_out=1
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=678480132, exp_memory_data=-748124196, exp_overflow_flag=0, exp_compflg_out=1
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 33010000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=4294967295, data2=4294967295, immediate_data=2147483648, alu_op_int=1, alu_src_int=0, encoding_int=5, compflg_in=0, program_counter=1632409590
+# 	ERROR::DUT_OUTPUT_DATA alu_data=0, memory_data=4294967295, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=0, exp_memory_data=-1, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 33110000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=0 REF=1
+# 	ERROR::INPUT_DATA data1=4294967295, data2=1550229529, immediate_data=3479876387, alu_op_int=1, alu_src_int=2, encoding_int=4, compflg_in=0, program_counter=2480119683
+# 	ERROR::DUT_OUTPUT_DATA alu_data=1321963495, memory_data=1550229529, overflow_flag=0, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=1321963495, exp_memory_data=1550229529, exp_overflow_flag=1, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 33410000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=4294967295, data2=3867485558, immediate_data=1702678859, alu_op_int=1, alu_src_int=2, encoding_int=3, compflg_in=1, program_counter=2674190780
+# 	ERROR::DUT_OUTPUT_DATA alu_data=427481737, memory_data=3867485558, overflow_flag=1, compflg_out=1
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=427481737, exp_memory_data=-427481738, exp_overflow_flag=0, exp_compflg_out=1
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 34980000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=0 REF=1
+# 	ERROR::INPUT_DATA data1=2147483648, data2=2147483648, immediate_data=205415034, alu_op_int=1, alu_src_int=1, encoding_int=3, compflg_in=0, program_counter=3550948857
+# 	ERROR::DUT_OUTPUT_DATA alu_data=1942068614, memory_data=2147483648, overflow_flag=0, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=1942068614, exp_memory_data=-2147483648, exp_overflow_flag=1, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 35000000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=3401720933, data2=4248464736, immediate_data=3137855648, alu_op_int=1, alu_src_int=1, encoding_int=0, compflg_in=0, program_counter=2010840198
+# 	ERROR::DUT_OUTPUT_DATA alu_data=263865285, memory_data=4248464736, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=263865285, exp_memory_data=-46502560, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 35050000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=4294967295, data2=2147483648, immediate_data=2147483648, alu_op_int=1, alu_src_int=2, encoding_int=2, compflg_in=0, program_counter=4238894844
+# 	ERROR::DUT_OUTPUT_DATA alu_data=2147483647, memory_data=2147483648, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=2147483647, exp_memory_data=-2147483648, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 35090000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=0 REF=1
+# 	ERROR::INPUT_DATA data1=2147483648, data2=911903978, immediate_data=1958987735, alu_op_int=1, alu_src_int=0, encoding_int=0, compflg_in=0, program_counter=226044713
+# 	ERROR::DUT_OUTPUT_DATA alu_data=1235579670, memory_data=911903978, overflow_flag=0, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=1235579670, exp_memory_data=911903978, exp_overflow_flag=1, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 35770000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=4176420263, data2=4294967295, immediate_data=2147483648, alu_op_int=1, alu_src_int=1, encoding_int=5, compflg_in=0, program_counter=1742260937
+# 	ERROR::DUT_OUTPUT_DATA alu_data=2028936615, memory_data=4294967295, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=2028936615, exp_memory_data=-1, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 36360000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=4116268941, data2=2147483648, immediate_data=4294967295, alu_op_int=1, alu_src_int=0, encoding_int=2, compflg_in=1, program_counter=3997990981
+# 	ERROR::DUT_OUTPUT_DATA alu_data=1968785293, memory_data=2147483648, overflow_flag=1, compflg_out=1
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=1968785293, exp_memory_data=-2147483648, exp_overflow_flag=0, exp_compflg_out=1
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 37190000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=4294967295, data2=3171434111, immediate_data=1292403593, alu_op_int=1, alu_src_int=2, encoding_int=0, compflg_in=1, program_counter=2027425362
+# 	ERROR::DUT_OUTPUT_DATA alu_data=1123533184, memory_data=3171434111, overflow_flag=1, compflg_out=1
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=1123533184, exp_memory_data=-1123533185, exp_overflow_flag=0, exp_compflg_out=1
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 38340000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=0 REF=1
+# 	ERROR::INPUT_DATA data1=3864776536, data2=2045029886, immediate_data=1031666072, alu_op_int=1, alu_src_int=0, encoding_int=2, compflg_in=0, program_counter=4123572577
+# 	ERROR::DUT_OUTPUT_DATA alu_data=1819746650, memory_data=2045029886, overflow_flag=0, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=1819746650, exp_memory_data=2045029886, exp_overflow_flag=1, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 38500000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=0 REF=1
+# 	ERROR::INPUT_DATA data1=2147483648, data2=750900805, immediate_data=3689683889, alu_op_int=1, alu_src_int=2, encoding_int=2, compflg_in=1, program_counter=3780607591
+# 	ERROR::DUT_OUTPUT_DATA alu_data=1396582843, memory_data=750900805, overflow_flag=0, compflg_out=1
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=1396582843, exp_memory_data=750900805, exp_overflow_flag=1, exp_compflg_out=1
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 38560000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=4294967295, data2=2081251993, immediate_data=2147483648, alu_op_int=1, alu_src_int=1, encoding_int=1, compflg_in=1, program_counter=2895057839
+# 	ERROR::DUT_OUTPUT_DATA alu_data=2147483647, memory_data=2081251993, overflow_flag=1, compflg_out=1
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=2147483647, exp_memory_data=2081251993, exp_overflow_flag=0, exp_compflg_out=1
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 41530000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=2464674897, data2=4294967295, immediate_data=2147483648, alu_op_int=1, alu_src_int=1, encoding_int=1, compflg_in=0, program_counter=2544385083
+# 	ERROR::DUT_OUTPUT_DATA alu_data=317191249, memory_data=4294967295, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=317191249, exp_memory_data=-1, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 41800000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=4294967295, data2=4162594579, immediate_data=2147483648, alu_op_int=1, alu_src_int=0, encoding_int=3, compflg_in=1, program_counter=3390251826
+# 	ERROR::DUT_OUTPUT_DATA alu_data=132372716, memory_data=4162594579, overflow_flag=1, compflg_out=1
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=132372716, exp_memory_data=-132372717, exp_overflow_flag=0, exp_compflg_out=1
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 43960000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=0 REF=1
+# 	ERROR::INPUT_DATA data1=2266339829, data2=280468721, immediate_data=4294967295, alu_op_int=1, alu_src_int=2, encoding_int=3, compflg_in=0, program_counter=773167861
+# 	ERROR::DUT_OUTPUT_DATA alu_data=1985871108, memory_data=280468721, overflow_flag=0, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=1985871108, exp_memory_data=280468721, exp_overflow_flag=1, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 45020000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=3285168335, data2=3252325306, immediate_data=3251310886, alu_op_int=1, alu_src_int=1, encoding_int=2, compflg_in=0, program_counter=2959581983
+# 	ERROR::DUT_OUTPUT_DATA alu_data=33857449, memory_data=3252325306, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=33857449, exp_memory_data=-1042641990, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 46400000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=3402331175, data2=1267365203, immediate_data=2147483648, alu_op_int=1, alu_src_int=1, encoding_int=4, compflg_in=0, program_counter=3463044811
+# 	ERROR::DUT_OUTPUT_DATA alu_data=1254847527, memory_data=1267365203, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=1254847527, exp_memory_data=1267365203, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 46540000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=2147483648, data2=2649927438, immediate_data=2147483648, alu_op_int=1, alu_src_int=1, encoding_int=3, compflg_in=0, program_counter=2679281501
+# 	ERROR::DUT_OUTPUT_DATA alu_data=0, memory_data=2649927438, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=0, exp_memory_data=-1645039858, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 47110000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=4294967295, data2=1849287328, immediate_data=3279503282, alu_op_int=1, alu_src_int=1, encoding_int=1, compflg_in=1, program_counter=368407919
+# 	ERROR::DUT_OUTPUT_DATA alu_data=1015464013, memory_data=1849287328, overflow_flag=1, compflg_out=1
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=1015464013, exp_memory_data=1849287328, exp_overflow_flag=0, exp_compflg_out=1
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 47930000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=3119314425, data2=2999035393, immediate_data=3491188194, alu_op_int=1, alu_src_int=2, encoding_int=0, compflg_in=0, program_counter=1756934732
+# 	ERROR::DUT_OUTPUT_DATA alu_data=120279032, memory_data=2999035393, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=120279032, exp_memory_data=-1295931903, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 48030000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=4294967295, data2=3884806228, immediate_data=3482077024, alu_op_int=1, alu_src_int=2, encoding_int=3, compflg_in=1, program_counter=2923234731
+# 	ERROR::DUT_OUTPUT_DATA alu_data=410161067, memory_data=3884806228, overflow_flag=1, compflg_out=1
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=410161067, exp_memory_data=-410161068, exp_overflow_flag=0, exp_compflg_out=1
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 48420000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=4294967295, data2=0, immediate_data=4294967295, alu_op_int=1, alu_src_int=1, encoding_int=4, compflg_in=0, program_counter=854315848
+# 	ERROR::DUT_OUTPUT_DATA alu_data=0, memory_data=0, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=0, exp_memory_data=0, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 49020000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=2147483648, data2=2147483648, immediate_data=2147483648, alu_op_int=1, alu_src_int=1, encoding_int=2, compflg_in=1, program_counter=169556695
+# 	ERROR::DUT_OUTPUT_DATA alu_data=0, memory_data=2147483648, overflow_flag=1, compflg_out=1
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=0, exp_memory_data=-2147483648, exp_overflow_flag=0, exp_compflg_out=1
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 49230000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=0 REF=1
+# 	ERROR::INPUT_DATA data1=2147483648, data2=2147483648, immediate_data=608567641, alu_op_int=1, alu_src_int=1, encoding_int=1, compflg_in=1, program_counter=2870136637
+# 	ERROR::DUT_OUTPUT_DATA alu_data=1538916007, memory_data=2147483648, overflow_flag=0, compflg_out=1
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=1538916007, exp_memory_data=-2147483648, exp_overflow_flag=1, exp_compflg_out=1
+# UVM_ERROR execute_stage/tb/scoreboard.svh(228) @ 49650000: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] overflow signal mismatch!!! DUT=1 REF=0
+# 	ERROR::INPUT_DATA data1=4281985015, data2=3166789121, immediate_data=2344711729, alu_op_int=1, alu_src_int=0, encoding_int=0, compflg_in=0, program_counter=4018231728
+# 	ERROR::DUT_OUTPUT_DATA alu_data=1115195894, memory_data=3166789121, overflow_flag=1, compflg_out=0
+# 	ERROR::REF_OUTPUT_DATA exp_alu_data=1115195894, exp_memory_data=-1128178175, exp_overflow_flag=0, exp_compflg_out=0
+# UVM_ERROR :   73
