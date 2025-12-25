@@ -17,9 +17,9 @@ To run the testbench there are certain things that must be done first.
 
 2. Make sure you can run QuestaSim, otherwise the scripts that run the actual UVM won't work.
 
-3. The reference model is made in Python but is needed to be wrapped in a C wrapper to be imported to SystemVerilog. To use the reference model, the C-code needs to be compiled this can be done with following commands. The compiled file will be saved in "dpi" folder.
+3. The reference model is made in Python but is needed to be wrapped in a C wrapper to be imported to SystemVerilog. To use the reference model, the C-code needs to be compiled this can be done with following commands. The compiled file will be saved in the "    UVM_Project/fas2_uvm_env/execute_stage/dpi" folder (dpi folder shall be created if is not already there).
    ```bash
-   cd fas2_uvm_env/reference_model
+   cd fas2_uvm_env/execute_stage/reference_model
    make 
 
 ## Running the testbench
